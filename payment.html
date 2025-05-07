@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fix-it-Fast - Payment</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="IMAGES/fix-it-fast.jpg" type="image">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/book_a_service.css">
+    <link rel="stylesheet" href="css/booked_success_page.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/sign_&_log_in.css">
+    <link rel="stylesheet" href="css/payment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                </svg>
+                <span> Fix-it-Fast</span>
+            </div>
+            <button class="mobile-menu" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Services</a></li>
+                <li><a href="index.html">How it Works</a></li>
+                <li><a href="index.html">Contact</a></li>
+                <li class="auth-links">
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="auth-container">
+        <div id="successPage" class="success-page">
+            <h1 class="page-title">Select Payment Method</h1>
+
+            <div class="payment-options">
+                <div class="payment-option" data-method="cod">
+                    <img class="payment-icon" src="images/cod.png"
+                        alt="Cash on Delivery">
+                    <div class="payment-details">
+                        <div class="payment-title">Cash</div>
+                        <div class="payment-description">Pay cash when our technician completed the task.</div>
+                    </div>
+                </div>
+
+                <div class="payment-option" data-method="upi">
+                    <img class="payment-icon" src="images/paytm.png"
+                        alt="UPI Payment">
+                    <div class="payment-details">
+                        <div class="payment-title">Pay through UPI</div>
+                        <div class="payment-description">Google Pay, PhonePe, Paytm and more</div>
+                    </div>
+                </div>
+
+                <div class="payment-option" data-method="qr">
+                    <img class="payment-icon" src="images/qr.png"
+                        alt="QR Code Payment">
+                    <div class="payment-details">
+                        <div class="payment-title">QR Code Payment</div>
+                        <div class="payment-description">Scan and pay using any UPI app</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="qrContainer" class="qr-container">
+                <div class="qr-instructions">Scan this QR code with any UPI app to complete your payment</div>
+                <img class="qr-code" src="images/adminQR.jpg" alt="Payment QR Code">
+            </div>
+
+            <div id="upiApps" class="upi-apps">
+                <p style="margin-bottom: 15px; color: #555;">Select your preferred UPI app:</p>
+                <div class="upi-app" data-app="gpay">
+                    <img class="upi-app-icon" src="images/gpay.png"
+                        alt="Google Pay">
+                    <div class="upi-app-name">Google Pay</div>
+                </div>
+                <div class="upi-app" data-app="phonepe">
+                    <img class="upi-app-icon" src="images/phonepe.png" alt="PhonePe">
+                    <div class="upi-app-name">PhonePe</div>
+                </div>
+                <div class="upi-app" data-app="paytm">
+                    <img class="upi-app-icon" src="images/paytm.png" alt="Paytm">
+                    <div class="upi-app-name">Paytm</div>
+                </div>
+            </div>
+
+            <button id="proceedButton" class="proceed-button">Proceed with Payment</button>
+            <a href="index.html" class="back-to-home">Go to Home</a>
+        </div>
+    </div>
+
+
+    </script>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                </svg>
+                <span>Fix-it-Fast</span>
+            </div>
+            <p>© 2024 Fix-it-Fast. All rights reserved.</p>
+            <p>Designed by- Anurag Verma</p>
+        </div>
+    </footer>
+    <script src="js/custom.js"></script>
+    <script src="js/signup.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/payment.js"></script>
+
+</body>
+
+</html>
