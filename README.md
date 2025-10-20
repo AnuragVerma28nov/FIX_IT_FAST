@@ -1,5 +1,5 @@
 FixItFast 🛠️⚡
-FixItFast is a lightweight, efficient issue tracking and bug resolution tool designed to help developers and teams quickly identify, prioritize, and resolve software issues.
+FixItFast is a lightweight, efficient issue tracking and bug resolution tool designed to help developers and teams quickly identify, prioritize, and resolve software issues
 
 Features ✨
 🚀 Quick Issue Creation – Log bugs and feature requests in seconds
