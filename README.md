@@ -12,4 +12,4 @@ Features ✨
 
 🤝 Collaboration Tools – Assign, comment, and track resolution progress
 
-📅 Sprint Planning – Integrate issues into your development cycles
+📅 Sprint Planning – Integrate issues into your development cycles.
